@@ -24,7 +24,7 @@ public class ValidParenthesis
 
         }
     }
-return stack.isEmpty();
+return stack.isEmpty(); //if stack is empty, all brackets were matched correctly
 }
 public static void main(String[] args) {
         String test1 = "()[]{}";
